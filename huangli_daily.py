@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 BASE_DIR    = Path.home() / "Documents/ClaudeCode/Huangli"
 DATA_DIR    = BASE_DIR / "data"
 LOG_DIR     = BASE_DIR / "logs"
-OBSIDIAN_DIR = Path.home() / "Library/Mobile Documents/iCloud~md~obsidian/Documents/MAY DAY ONE/MAY DAY 1/021 INBOX （未读）"
+OBSIDIAN_DIR = Path("/Users/shawn/Documents/MAY/021 INBOX （未读）")
 
 logging.basicConfig(
     filename=LOG_DIR / "huangli.log",
